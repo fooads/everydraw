@@ -1,6 +1,6 @@
-# CS350 Term Project
+# EveryDraw
 
-## Team 15 (Ben, Fuad, Jun, Rahul, Yoonsu)
+## Ben, Fuad, Jun, Rahul, Yoonsu
 
 > Requirements for Frontend - node (version 19.8.1), npm (version 9.5.1), axios, bootstrap
 
