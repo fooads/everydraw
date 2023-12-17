@@ -29,7 +29,6 @@ const Register = () => {
 
     return (
         <div className="reg_container">
-            <div className="logo"></div>
             <h2 className="reg_title">Register</h2>
             <input
                 className="reg_input"
