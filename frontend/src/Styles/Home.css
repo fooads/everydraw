@@ -4,53 +4,47 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    font-family: "Roboto";
-    background-color: #FAFAC8;
+    font-family: "Helvetica";
+    background-color: black;
 }
 
 .home_title {
-    position: absolute;
-    padding-top: 70px;
+    color: white;
 }
 
-.home_banner {
-    background-color: #5B6C87;
-    color: white;
-    width: 100%;
-    padding: 10px 0;
-    position: absolute;
-    top: 0;
-    text-align: center;
-    font-size: 1.5em;
+.home_login_reg_buttons {
+    position: relative;
+    top: 24px;
 }
 
 .home_link_login {
     padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    background-color: #F29727;
+    margin-right: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: black;
     color: white;
-    font-family: "Roboto";
+    font-family: "Helvetica";
     cursor: pointer;
-    position: absolute;
-    top: 20px;
-    right: 140px;
     text-decoration: none;
 }
 
-.home_link_login:hover { color: #ffffff; }
+.home_link_login:hover { 
+    color: #ffffff;
+}
 
 .home_link_register {
     padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    background-color: #F29727;
+    margin-left: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: black;
     color: white;
-    font-family: "Roboto";
+    font-family: "Helvetica";
     cursor: pointer;
-    position: absolute;
-    top: 20px;
-    right: 20px;
     text-decoration: none;
 }
-.home_link_register:hover { color: #ffffff; }
+
+.home_link_register:hover { 
+    color: #ffffff; 
+}
