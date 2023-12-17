@@ -4,36 +4,69 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    font-family: "Roboto";
-    background-color: #FAFAC8;
+    font-family: "Helvetica";
+    background-color: #000000;
 }
 
 .login_title {
-    color: #000000;
-    font-family: "Roboto";
+    color: #ffffff;
+    font-family: "Helvetica";
 }
 
-.login_input {
-    margin: 10px 0;
+.login_title::selection {
+    color: black;
+    background: white;
+}
+
+.login_password_input {
+    margin: 6px;
     padding: 10px;
     width: 200px;
-    border: solid 1px;
     border-color: #000000;
-    border-radius: 5px;
-    background-color: #fff0df;
-    font-family: "Roboto";
+    border-radius: 10px;
+    background-color: #ffffff;
+    font-family: "Helvetica";
+}
+
+.login_password_input::placeholder {
+    color: black;
+}
+
+.login_password_input:focus {
+    outline: none;
+}
+
+.login_password_input::selection {
+    color: black;
 }
 
 .login_button {
     padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    background-color: #F29727;
+    position: relative;
+    margin-top: 16px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: black;
     color: white;
-    font-family: "Roboto";
+    font-family: "Helvetica";
     cursor: pointer;
+    margin-right: 15px;
 }
 
-.login_link {
-    color: #89CFF0;
+.login_button::selection {
+    color: #fff;
+}
+
+.back_link {
+    color: white;
+    position: relative;
+    margin-left: 15px;
+}
+
+.back_link:hover {
+    color: white;
+}
+
+.back_link::selection {
+    color: white;
 }

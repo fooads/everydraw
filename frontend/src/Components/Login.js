@@ -43,24 +43,22 @@ const Login = () => {
 
     return (
         <div className="login_container">
-            <div className="logo"></div>
-            {/* <h1>user_in_context = {user}</h1> */}
             <h2 className="login_title">Login</h2>
             <input
-                className="login_input"
+                className="login_password_input"
                 onChange={e => setEmail(e.target.value)}
                 placeholder='Email'
             />
             <input
-                className="login_input"
+                className="login_password_input"
                 type="password"
                 onChange={e => setPassword(e.target.value)}
                 placeholder='Password'
             />
-            <button className="login_button" onClick={loginHandler}>Log in</button>
-            <h1>{status}</h1>
-            <Link to="/register" className="login_link">Register</Link>
-            {/* <Link to="/" className="link">Home</Link> */}
+            <div className="buttons">
+                <button className="login_button" onClick={loginHandler}>Log in</button>
+                <Link to="/" className="back_link">Back</Link>
+            </div>
         </div>
     )
 }

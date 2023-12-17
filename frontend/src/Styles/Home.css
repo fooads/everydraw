@@ -12,6 +12,11 @@
     color: white;
 }
 
+.home_title::selection {
+    color: black;
+    background: white;
+}
+
 .home_login_reg_buttons {
     position: relative;
     top: 24px;
@@ -27,6 +32,11 @@
     font-family: "Helvetica";
     cursor: pointer;
     text-decoration: none;
+}
+
+.home_link_login::selection {
+    color: white;
+    background: black;
 }
 
 .home_link_login:hover { 
@@ -47,4 +57,9 @@
 
 .home_link_register:hover { 
     color: #ffffff; 
+}
+
+.home_link_register::selection {
+    color: white;
+    background: black;
 }
