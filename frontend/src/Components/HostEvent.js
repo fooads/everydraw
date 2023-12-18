@@ -36,7 +36,6 @@ const HostEvent = () => {
             <div>
                 <h2>Host Event</h2>
             </div>
-
             <div>
                 <input
                     onChange={e => setEventName(e.target.value)}

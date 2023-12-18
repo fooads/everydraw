@@ -47,16 +47,7 @@ const UserProfile = () => {
 
     return (
         <>
-        {/* <div>
-            Hi, 
-                {userDetails.map(user => (
-                <div key={user._id}>
-                    <p>{user.name}</p>
-                </div>
-                ))
-                }
-        </div> */}
-        <h1>Hi, {userDetails.name}</h1>
+        <h1>Greetings, {userDetails.name}</h1>
         
         <div>
             <h3>Events you are participaing in:</h3>
@@ -65,8 +56,6 @@ const UserProfile = () => {
                     <Link to={`/participatedeventdetail/${event._id}`}>
                         <button>{event.name}</button>
                     </Link>
-                    
-
                 </div>
             ))
             }
@@ -79,11 +68,9 @@ const UserProfile = () => {
                     <Link to={`/hostedeventdetail/${event._id}`}>
                         <button>{event.name}</button>
                     </Link>
-
                 </div>
             ))
             }
-
         </div>
         </>
     )

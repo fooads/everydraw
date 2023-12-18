@@ -1,5 +1,6 @@
 import axios from "axios";
 import { useState } from "react";
+import { Link } from 'react-router-dom';
 import "../Styles/Register.css"
 
 
@@ -46,7 +47,10 @@ const Register = () => {
                 onChange={e => setPassword(e.target.value)}
                 placeholder='Password'
             />
-            <button className="reg_button" onClick={registerHandler}>Register</button>
+            <div className="buttons">
+                <button className="reg_button" onClick={registerHandler}>Register</button>
+                <Link to="/" className="reg_back_link">Back</Link>
+            </div>
         </div>
     )
 }

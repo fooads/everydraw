@@ -13,14 +13,24 @@
     font-family: "Helvetica";
 }
 
+.reg_title::selection {
+    color: black;
+    background-color: #fff;
+}
+
 .reg_input {
     margin: 6px;
     padding: 10px;
     width: 200px;
     border-color: #000000;
+    border: solid 2px;
     border-radius: 10px;
     background-color: #fff;
-    font-family: "Helvetica";
+    font-family: "Helvetica";   
+}
+
+.reg_input::selection {
+    color: black;
 }
 
 .reg_input::placeholder {
@@ -35,6 +45,7 @@
     padding: 10px 20px;
     position: relative;
     margin-top: 16px;
+    margin-right: 8px;
     border: 2px solid white;
     border-radius: 10px;
     background-color: black;
@@ -43,16 +54,22 @@
     cursor: pointer;
 }
 
+.reg_button::selection {
+    color: white;
+}
 
-.login_button {
-    padding: 10px 20px;
+.reg_back_link {
     position: relative;
-    margin-top: 16px;
-    border: 2px solid white;
-    border-radius: 10px;
-    background-color: black;
     color: white;
     font-family: "Helvetica";
-    cursor: pointer;
-    margin-right: 15px;
+    margin-left: 8px;
+}
+
+.reg_back_link:hover {
+    color: white;
+}
+
+.reg_back_link::selection {
+    color: white;
+    background-color: #000;
 }
